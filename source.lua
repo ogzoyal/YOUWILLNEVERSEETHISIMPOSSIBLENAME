@@ -362,7 +362,7 @@ Library.Create = function(_, LibraryOptions)
 	local UIToggleState = true
 
 	UIS.InputEnded:connect(function(Input)
-		if Input.KeyCode == Enum.KeyCode.RightControl then
+		if Input.KeyCode == Enum.KeyCode.LeftAlt then
 			UIToggleState = not UIToggleState
 			--[[if UIToggleState then
 				TS:Create(Tabs, TI(0.2), {Size = UDim2.new(1, 0, 1, 0)}):Play()
