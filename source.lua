@@ -1,4 +1,3 @@
--- Source code here!
 local Library = {Count = 0, Tab = nil}
 
 local Themes = {
